@@ -12,7 +12,7 @@ import Avatar from '@mui/material/Avatar';
 import Button from '@mui/material/Button';
 
 //const pages = ['Main', 'About', 'Skills', 'Work', 'Blog', 'Contact'];
-const pages = ['Main', 'About', 'Skills', 'Work'];
+const pages = ['Main', 'About', 'Skills'];
 
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 
@@ -40,9 +40,6 @@ export default function Home() {
         break
       case 'Skills':
         router.push('/Skills')
-        break
-      case 'Work':
-        router.push('/Work')
         break
     }
     setAnchorElNav(null);
